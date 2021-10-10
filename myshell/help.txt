@@ -1,0 +1,81 @@
+
+
+
+         Following command are serviceable 
+         
+         
+	  ls      listing files and directory 
+	             for more information about ls type ' ls --help '
+	             
+	              Usage: ls [OPTION] [FILE]...\n Search for PATTERN in each FILE
+	               -l          fot listing permission ,uid etc
+	               -lS         fot listing permission ,uid etc shorted by size
+	               -o          same as -l but do not print group 
+	               -s          print size and name in order
+	               -S          print size in order with name 
+	               -i          print inode with file name 
+	               -h  --help  for help 
+          	      Standard Input  : ls [./] 
+	              Standard Input with options : ls -i/-v/-iv [./]
+	
+          
+          grep    finding pattern in file 
+                     for more information about grep type ' grep --help '
+	  
+	               Usage: grep [OPTION] PATTERN [FILE]...  Search for PATTERN in each FILE
+	                -w       force PATTERN to match only whole words
+	                -i       ignore case distinctions
+	                -in      ignore case distinctions and print with line
+	                -vc      count case distinctions which not match
+	                -n       print line number with output lines
+	                -c       print only a count of matching lines per FILE
+	               Standard Input :ls PATTERN
+	               Standard Input with options : ./grep -i/-v/-iv PATTERN
+
+	  
+	  
+	  
+	  
+	  cp      copy file from one place to another
+	             for more information about cp type ' cp --help '
+	 
+	              Usage: cp [OPTION] [FILE] [FILE/DIR] \n Search for PATTERN in each FILE
+	               -p          peserve permission access time modify time etc
+	               -b          make backup of file with different name 
+	               -f          use to copy fource fully
+	               -u          to update if source file is more recent then it will copy 
+	               -h  --help  for help 
+	             Standard Input  : cp  [file]   default DIR is [./] 
+                     Standard Input with options : cp -p/-b/-f [file] default DIR is [./] 
+ 
+	 
+	 
+	 
+	 
+	 
+	  mv      move file from one place to another
+	             for more information about mv type ' mv --help '
+	  
+	             Usage: mv [OPTION] [FILE/DIR] [FILE/DIR] \n Search for PATTERN in each FILE
+	                 -i          interactive move
+	                 -b          make backup of file with different name 
+	                 -v          same as move but it print at the end command
+	                 -u          to update if source file is more recent then it will copy 
+	                 -h  --help  for help 
+	            Standard Input  : mv  [file/dir]   default DIR is [./] 
+	            Standard Input with options : mv -i/-b/-v [file/dir]    default DIR is [./] 
+
+	  
+	  
+	  
+	  ps      see details status about proceses
+	             for more information about ps type ' ps --help '
+	  
+	  
+	  
+	 EXIT/Exit/exit    terminate myshell
+	  
+	  
+	 --help /-h :for more information
+	
+ 
